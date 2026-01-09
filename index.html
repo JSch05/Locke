@@ -1,9 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>Locke Test</title>
+  <meta charset="UTF-8">
+  <title>Luisa Nüsse | Tattoo Artist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body { background: #0F0F0F; color: #e5e5e5; }
+  </style>
 </head>
-<body>
-  <h1>GitHub Pages funktioniert</h1>
+
+<body class="px-6">
+
+<section class="min-h-screen flex flex-col justify-center items-center text-center">
+  <h1 class="text-6xl text-[#6B7A40] mb-4">Luisa Nüsse</h1>
+  <p class="uppercase tracking-widest text-gray-400 mb-8">Tattoo Artist</p>
+  <a href="#portfolio" class="border border-[#6B7A40] px-8 py-3 hover:bg-[#6B7A40] hover:text-black transition">
+    Portfolio ansehen
+  </a>
+</section>
+
+<section class="max-w-4xl mx-auto py-20">
+  <h2 class="text-3xl text-[#6B7A40] mb-6">Über mich</h2>
+  <p>
+    Tätowieren ist für mich mehr als nur Tinte unter der Haut.
+    Jedes Motiv entsteht individuell und mit höchstem Anspruch.
+  </p>
+</section>
+
+<section id="portfolio" class="max-w-6xl mx-auto py-20">
+  <h2 class="text-3xl text-[#6B7A40] mb-10">Portfolio</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <img src="https://via.placeholder.com/600x800" class="rounded">
+    <img src="https://via.placeholder.com/600x800" class="rounded">
+    <img src="https://via.placeholder.com/600x800" class="rounded">
+  </div>
+</section>
+
+<footer class="text-center text-gray-500 py-10">
+  © 2025 Luisa Nüsse
+</footer>
+
 </body>
 </html>
